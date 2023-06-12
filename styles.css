@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+};
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+div {
+  margin: 10px;
+  text-align: center;
+}
+
+#title {
+  margin-right: auto;
+  align-self: flex-start;
+}
+
+#title-gift {
+  margin-right: auto;
+  align-self: flex-start;
+}
+
+#price {
+  margin-left: auto;
+  align-self: flex-end;
+}
