@@ -1,33 +1,40 @@
-.top-container {
+/* .top-container {
   display: flex;
   flex-direction: column;
-}
+} */
 
 #title {
-  font-size: 24px;
+  font-size: 50px;
   font-weight: bold;
+  font-style: italic;
+  color: #366a72ff;
 }
 
 #gift-price {
   display: flex;
-  border: 3px solid black;
-  gap: 1rem;
+  /* border: 3px solid black; */
+  justify-content: space-between;
+  color: #e9d283ff;
 }
 
 #people {
   display: flex;
-  border: 3px solid black;
+  /* border: 3px solid black; */
+  gap: 5rem;
+  font-size: 25px;
+  color: #b78995ff;
 }
 
 #title-gift {
-  font-size: 18px;
-  margin-top: 10px;
+  font-size: 80px;
+  /* border: 3px blue solid; */
 }
 
 #price {
-  font-size: 18px;
+  font-size: 80px;
   margin-top: 10px;
-  border: 3px blue solid;
+  /* border: 3px blue solid; */
+  color: #41613aff;
 }
 
 #from,
@@ -49,9 +56,10 @@
 #GCNumber {
   position: absolute;
   bottom: 20px;
-  font-size: 18px;
-  background-color:white;
-  border: 3px solid black ;
+  font-size: 20px;
+  background-color: rgba(76, 101, 97, 0.411);
+  border: 1px solid rgba(255, 255, 255, 0.342);
+  color: #fbfdfdff;
 }
 
 #website {
