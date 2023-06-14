@@ -1,5 +1,6 @@
 .container {
   box-sizing: border-box;
+  position: relative;
 }
 
 .background-image {
@@ -37,4 +38,5 @@
   gap: 5rem;
   display: flex;
   justify-content: space-around;
+  padding-bottom: 30px;
 }
