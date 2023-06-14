@@ -1,76 +1,40 @@
-/* .top-container {
-  display: flex;
-  flex-direction: column;
-} */
-
-#title {
-  font-size: 50px;
-  font-weight: bold;
-  font-style: italic;
-  color: #366a72ff;
+.container {
+  box-sizing: border-box;
 }
 
-#gift-price {
-  display: flex;
-  /* border: 3px solid black; */
-  justify-content: space-between;
-  color: #e9d283ff;
-}
-
-#people {
-  display: flex;
-  /* border: 3px solid black; */
-  gap: 5rem;
-  font-size: 25px;
-  color: #b78995ff;
-}
-
-#title-gift {
-  font-size: 80px;
-  /* border: 3px blue solid; */
-}
-
-#price {
-  font-size: 80px;
-  margin-top: 10px;
-  /* border: 3px blue solid; */
-  color: #41613aff;
-}
-
-#from,
-#to {
-  margin-top: 10px;
-}
-
-#background {
-  position: relative;
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 300px;
-  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/001/840/688/small_2x/green-grass-hill-background-isolated-on-white-outdoor-abstract-background-for-natural-template-design-free-vector.jpg");
+  height: 100%;
+  background-image: url(https://img.freepik.com/free-vector/natural-landscape-background-theme_23-2148650336.jpg);
   background-size: cover;
   background-position: center;
 }
 
-#website,
-#bottom-middle,
-#GCNumber {
-  position: absolute;
-  bottom: 20px;
-  font-size: 20px;
-  background-color: rgba(76, 101, 97, 0.411);
-  border: 1px solid rgba(255, 255, 255, 0.342);
-  color: #fbfdfdff;
+.overlay-elements {
+  position: relative;
 }
 
-#website {
-  left: 20px;
+.price {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
 }
 
-#bottom-middle {
-  left: 50%;
-  transform: translateX(-50%);
+.people {
+  margin: 10px;
+  gap: 5rem;
+  display: flex;
 }
 
-#GCNumber {
-  right: 20px;
+.gap {
+  height: 500px;
+}
+
+.bottom-elements {
+  gap: 5rem;
+  display: flex;
+  justify-content: space-around;
 }
