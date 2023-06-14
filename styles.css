@@ -1,6 +1,6 @@
-/* .container {
-  position: relative;
-} */
+.container {
+  box-sizing: border-box;
+}
 
 .background-image {
   position: absolute;
@@ -15,4 +15,26 @@
 
 .overlay-elements {
   position: relative;
+}
+
+.price {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
+
+.people {
+  margin: 10px;
+  gap: 5rem;
+  display: flex;
+}
+
+.gap {
+  height: 500px;
+}
+
+.bottom-elements {
+  gap: 5rem;
+  display: flex;
+  justify-content: space-around;
 }
